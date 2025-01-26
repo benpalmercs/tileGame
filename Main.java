@@ -5,11 +5,7 @@ public class Main{
         myDisplay.scramble();
         myDisplay.updateBoard();
         Boolean won = false;
-        while(!won){
-            won = myDisplay.hasWonGame();
-        }
-        // Board myBoard = new Board(); 
-        // System.out.println(myBoard);
+       
         
     }
 }
